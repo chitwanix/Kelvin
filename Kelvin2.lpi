@@ -1,0 +1,171 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="9"/>
+    <General>
+      <SessionStorage Value="InProjectDir"/>
+      <MainUnit Value="0"/>
+      <Title Value="Kelvin"/>
+      <ResourceType Value="res"/>
+      <UseXPManifest Value="True"/>
+    </General>
+    <i18n>
+      <EnableI18N LFM="False"/>
+    </i18n>
+    <VersionInfo>
+      <UseVersionInfo Value="True"/>
+      <MajorVersionNr Value="1"/>
+      <RevisionNr Value="1"/>
+      <Language Value="0809"/>
+      <StringTable Comments="Convert units fast and easily" CompanyName="Norberto Ventafini" FileDescription="Kelvin, a free units converter" InternalName="Kelvn" LegalCopyright="GPLv3" OriginalFilename="kelvinf" ProductName="Kelvin" ProductVersion="1.0.1"/>
+    </VersionInfo>
+    <BuildModes Count="1">
+      <Item1 Name="Default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+      <DestinationDirectory Value="$(ProjPath)/kelvin.source/"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+        <LaunchingApplication PathPlusParams="/usr/bin/xterm -T 'Lazarus Run Output' -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="2">
+      <Item1>
+        <PackageName Value="FCL"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="LCL"/>
+      </Item2>
+    </RequiredPackages>
+    <Units Count="18">
+      <Unit0>
+        <Filename Value="Kelvin2.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Kelvin2"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="cur.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="cur"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="press.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="press"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="cdata.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="cdata"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="visc.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="visc"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="prefx.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="prefx"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="angvel.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="AngVel"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="force.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="force"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="volliq.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="volliq"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="echarge.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="echarge"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="aboutk.lfm"/>
+        <IsPartOfProject Value="True"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="aboutk.lrs"/>
+        <IsPartOfProject Value="True"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="aboutk.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="abk"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="aboutk"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="maink.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="kelvinm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="maink"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="mass.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="mass"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="ksplash.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="splash"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="ksplash"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="angle.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="angle"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="cnum.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="cnum"/>
+      </Unit17>
+    </Units>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <Target>
+      <Filename Value="kelvinf"/>
+    </Target>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+      <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
+    </SearchPaths>
+    <Linking>
+      <Debugging>
+        <GenerateDebugInfo Value="False"/>
+      </Debugging>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+    <Other>
+      <CompilerMessages>
+        <MsgFileName Value=""/>
+      </CompilerMessages>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
+  </CompilerOptions>
+</CONFIG>

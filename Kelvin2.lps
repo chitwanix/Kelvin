@@ -1,0 +1,161 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="18">
+      <Unit0>
+        <Filename Value="Kelvin2.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Kelvin2"/>
+        <UsageCount Value="22"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="cur.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="cur"/>
+        <UsageCount Value="22"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="press.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="press"/>
+        <UsageCount Value="22"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="cdata.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="cdata"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="22"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="visc.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="visc"/>
+        <UsageCount Value="22"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="prefx.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="prefx"/>
+        <UsageCount Value="22"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="angvel.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="AngVel"/>
+        <UsageCount Value="22"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="force.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="force"/>
+        <UsageCount Value="22"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="volliq.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="volliq"/>
+        <UsageCount Value="22"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="echarge.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="echarge"/>
+        <UsageCount Value="22"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="aboutk.lfm"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="22"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="aboutk.lrs"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="22"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="aboutk.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="abk"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="aboutk"/>
+        <EditorIndex Value="1"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="7"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="22"/>
+        <Loaded Value="True"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="maink.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="kelvinm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="maink"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="21"/>
+        <CursorPos X="1" Y="21"/>
+        <UsageCount Value="22"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="mass.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="mass"/>
+        <UsageCount Value="22"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="ksplash.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="splash"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="ksplash"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="22"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="angle.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="angle"/>
+        <UsageCount Value="21"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="cnum.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="cnum"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="6"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="21"/>
+      </Unit17>
+    </Units>
+    <General>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+    <JumpHistory Count="3" HistoryIndex="2">
+      <Position1>
+        <Filename Value="maink.pas"/>
+        <Caret Line="3127" Column="42" TopLine="3127"/>
+      </Position1>
+      <Position2>
+        <Filename Value="aboutk.pas"/>
+        <Caret Line="1" Column="1" TopLine="1"/>
+      </Position2>
+      <Position3>
+        <Filename Value="maink.pas"/>
+        <Caret Line="3137" Column="110" TopLine="3128"/>
+      </Position3>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>
