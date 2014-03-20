@@ -20,7 +20,12 @@
         <Filename Value="press.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="press"/>
+        <EditorIndex Value="1"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="62"/>
+        <CursorPos X="51" Y="78"/>
         <UsageCount Value="22"/>
+        <Loaded Value="True"/>
       </Unit2>
       <Unit3>
         <Filename Value="cdata.pas"/>
@@ -84,7 +89,7 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="aboutk"/>
-        <EditorIndex Value="1"/>
+        <EditorIndex Value="2"/>
         <WindowIndex Value="0"/>
         <TopLine Value="7"/>
         <CursorPos X="1" Y="1"/>
@@ -143,7 +148,7 @@
     <General>
       <ActiveWindowIndexAtStart Value="0"/>
     </General>
-    <JumpHistory Count="3" HistoryIndex="2">
+    <JumpHistory Count="4" HistoryIndex="3">
       <Position1>
         <Filename Value="maink.pas"/>
         <Caret Line="3127" Column="42" TopLine="3127"/>
@@ -156,6 +161,10 @@
         <Filename Value="maink.pas"/>
         <Caret Line="3137" Column="110" TopLine="3128"/>
       </Position3>
+      <Position4>
+        <Filename Value="press.pas"/>
+        <Caret Line="1" Column="1" TopLine="1"/>
+      </Position4>
     </JumpHistory>
   </ProjectSession>
 </CONFIG>

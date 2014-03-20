@@ -75,7 +75,7 @@ tpress[26].tu:= 'Micrometer of mercury'; tpress[26].tsym:= 'µmHg'; tpress[26].t
 tpress[26].tdef:= '';
 tpress[27].tu:= 'Micron'; tpress[27].tsym:= 'µ'; tpress[27].tcons:= 0.00099999984999;
 tpress[27].tdef:= 'Used in vacuum technology. Equal to 1 millitorr.';
-tpress[28].tu:= 'Millibar'; tpress[28].tsym:= 'mbar'; tpress[28].tcons:= 0.7500615613;
+tpress[28].tu:= 'Millibar'; tpress[28].tsym:= 'mb/mbar'; tpress[28].tcons:= 0.7500615613;
 tpress[28].tdef:= 'One thousandth of a bar.';
 tpress[29].tu:= 'Millimeter of mercury (0ºC)'; tpress[29].tsym:= 'mmHg'; tpress[29].tcons:= 1;
 tpress[29].tdef:= '';

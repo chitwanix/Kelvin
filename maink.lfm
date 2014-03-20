@@ -14,7 +14,7 @@ object kelvinm: Tkelvinm
   Caption = 'Kelvin'
   ChildSizing.EnlargeHorizontal = crsScaleChilds
   ChildSizing.EnlargeVertical = crsScaleChilds
-  ClientHeight = 660
+  ClientHeight = 668
   ClientWidth = 919
   Constraints.MinHeight = 650
   Constraints.MinWidth = 919
@@ -1630,7 +1630,7 @@ object kelvinm: Tkelvinm
   ParentBiDiMode = False
   Position = poScreenCenter
   UseDockManager = True
-  LCLVersion = '1.0.12.0'
+  LCLVersion = '1.0.14.0'
   object Logo: TImage
     AnchorSideLeft.Control = Owner
     AnchorSideTop.Control = Owner
@@ -2191,10 +2191,10 @@ object kelvinm: Tkelvinm
     AnchorSideRight.Control = Owner
     AnchorSideRight.Side = asrBottom
     AnchorSideBottom.Side = asrBottom
-    Left = 429
+    Left = 430
     Height = 22
     Top = 35
-    Width = 61
+    Width = 58
     Alignment = taCenter
     BorderSpacing.Top = 35
     BorderSpacing.Bottom = 500
@@ -2233,7 +2233,7 @@ object kelvinm: Tkelvinm
     AnchorSideBottom.Side = asrBottom
     Left = 209
     Height = 30
-    Top = 610
+    Top = 618
     Width = 500
     Anchors = [akLeft, akBottom]
     BorderSpacing.Bottom = 20
@@ -2241,10 +2241,10 @@ object kelvinm: Tkelvinm
     ClientWidth = 500
     TabOrder = 1
     object LSearch: TLabel
-      Left = 11
+      Left = 7
       Height = 18
       Top = 8
-      Width = 118
+      Width = 127
       Anchors = []
       Caption = 'Enter unit to search'
       ParentColor = False
@@ -2271,8 +2271,8 @@ object kelvinm: Tkelvinm
     end
     object esrch: TEdit
       Left = 146
-      Height = 25
-      Top = 2
+      Height = 27
+      Top = 1
       Width = 104
       Anchors = []
       OnChange = esrchChange
@@ -2287,7 +2287,7 @@ object kelvinm: Tkelvinm
     AnchorSideBottom.Control = Owner
     AnchorSideBottom.Side = asrBottom
     Left = 50
-    Height = 388
+    Height = 396
     Top = 200
     Width = 819
     Align = alCustom
@@ -2299,7 +2299,7 @@ object kelvinm: Tkelvinm
     BorderSpacing.Bottom = 72
     Caption = 'Panel1'
     ChildSizing.Layout = cclLeftToRightThenTopToBottom
-    ClientHeight = 388
+    ClientHeight = 396
     ClientWidth = 819
     FullRepaint = False
     TabOrder = 0
@@ -2338,6 +2338,8 @@ object kelvinm: Tkelvinm
         end      
         item
           Font.Color = clTeal
+          Font.Height = -11
+          Font.Name = 'Sans'
           MaxSize = 100
           Title.Caption = 'Units'
           Title.Color = clForm
@@ -2435,7 +2437,7 @@ object kelvinm: Tkelvinm
       OnClick = ListBox1Click
       ParentShowHint = False
       ParentFont = False
-      ScrollWidth = 226
+      ScrollWidth = 227
       ShowHint = True
       TabOrder = 1
     end
@@ -2458,7 +2460,7 @@ object kelvinm: Tkelvinm
       AnchorSideBottom.Control = Panel1
       AnchorSideBottom.Side = asrBottom
       Left = 201
-      Height = 112
+      Height = 120
       Top = 275
       Width = 617
       Anchors = [akTop, akLeft, akRight, akBottom]
@@ -16548,10 +16550,10 @@ object kelvinm: Tkelvinm
     AnchorSideRight.Control = chlogo
     AnchorSideRight.Side = asrCenter
     AnchorSideBottom.Side = asrBottom
-    Left = 750
+    Left = 751
     Height = 15
     Top = 124
-    Width = 147
+    Width = 146
     Anchors = [akTop, akRight]
     Caption = 'Powered by Chitwanix OS'
     Font.Color = 9600103
