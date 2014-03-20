@@ -1,7 +1,7 @@
 { This is an automatically generated lazarus resource file }
 
 LazarusResources.Add('Tkelvinm','FORMDATA',[
-  'TPF0'#8'Tkelvinm'#7'kelvinm'#4'Left'#3#243#0#6'Height'#3#177#2#3'Top'#2#12#5
+  'TPF0'#8'Tkelvinm'#7'kelvinm'#4'Left'#3'/'#1#6'Height'#3#177#2#3'Top'#2#19#5
   +'Width'#3#151#3#18'HorzScrollBar.Page'#3#150#3#21'HorzScrollBar.Visible'#8#18
   +'VertScrollBar.Page'#3#147#2#19'VertScrollBar.Range'#2'a'#21'VertScrollBar.V'
   +'isible'#8#13'ActiveControl'#7#8'ListBox1'#7'Anchors'#11#0#8'BiDiMode'#7#24
