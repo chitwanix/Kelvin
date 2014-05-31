@@ -1,19 +1,24 @@
 object splash: Tsplash
-  Left = 432
-  Height = 397
-  Top = 166
-  Width = 533
+  Left = 426
+  Height = 403
+  Top = 171
+  Width = 585
   BorderIcons = []
   BorderStyle = bsNone
   Caption = 'Kelvin'
-  ClientHeight = 397
-  ClientWidth = 533
+  ClientHeight = 403
+  ClientWidth = 585
   FormStyle = fsSplash
-  LCLVersion = '0.9.28.2'
+  OnActivate = FormActivate
+  LCLVersion = '1.0.14.0'
   object Image1: TImage
-    Left = 200
+    AnchorSideLeft.Control = Owner
+    AnchorSideLeft.Side = asrCenter
+    AnchorSideTop.Control = Owner
+    AnchorSideTop.Side = asrCenter
+    Left = 226
     Height = 128
-    Top = 88
+    Top = 137
     Width = 132
     Center = True
     Picture.Data = {
@@ -559,10 +564,15 @@ object splash: Tsplash
     Proportional = True
   end
   object Label1: TLabel
-    Left = 229
+    AnchorSideLeft.Control = Image1
+    AnchorSideLeft.Side = asrCenter
+    AnchorSideBottom.Control = Image1
+    Left = 255
     Height = 26
-    Top = 264
+    Top = 61
     Width = 74
+    Anchors = [akLeft, akBottom]
+    BorderSpacing.Bottom = 50
     Caption = 'Kelvin'
     Font.Height = -21
     Font.Name = 'Sans'
@@ -570,8 +580,17 @@ object splash: Tsplash
     ParentColor = False
     ParentFont = False
   end
-  object Timer1: TTimer
-    left = 32
-    top = 328
+  object Label2: TLabel
+    AnchorSideLeft.Control = Image1
+    AnchorSideLeft.Side = asrCenter
+    AnchorSideTop.Control = Image1
+    AnchorSideTop.Side = asrBottom
+    Left = 245
+    Height = 18
+    Top = 315
+    Width = 94
+    BorderSpacing.Top = 50
+    Caption = 'Unit Converter'
+    ParentColor = False
   end
 end

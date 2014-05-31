@@ -269,14 +269,18 @@ tlen[122].tu:= 'Sun (Japanese)'; tlen[122].tsym:= ''; tlen[122].tcons:= 30.3022;
 tlen[122].tdef:= 'Japanese measurement.';
 tlen[123].tu:= 'Toise (French)'; tlen[123].tsym:= ''; tlen[123].tcons:= 1949.196;
 tlen[123].tdef:= 'French fathom. It was originated in pre-revolutionary France. In North America, it was used in colonial French establishments in early New France, French Louisiana (La Louisiane), and Quebec.';
-tlen[124].tu:= 'Vara (Mexican)'; tlen[124].tsym:= ''; tlen[124].tcons:= 837.946;
-tlen[124].tdef:= 'A Mexican measure of length equal to about one yard (32.99 inches).';
-tlen[125].tu:= 'Vara (Spanish)'; tlen[125].tsym:= ''; tlen[125].tcons:= 847.979;
-tlen[125].tdef:= 'It is an old Spanish unit of length. Varas are a surveying unit that appears in many deeds in the southern United States and also used in Latin America. The Spanish unit was set at about 835.905 mm in 1801. In Argentina, the vara measured about 866 mm.';
-tlen[126].tu:= 'Verst/werst'; tlen[126].tsym:= ''; tlen[126].tcons:= 1066800;
-tlen[126].tdef:= 'A Russian measure of length containing 3,500 English feet.';
-tlen[127].tu:= 'Yard'; tlen[127].tsym:= 'yd'; tlen[127].tcons:= 914.4;
-tlen[127].tdef:= 'A yard (abbreviation: yd) is a unit of length in several different systems including United States customary units, Imperial units and the former English units. It is equal to 3 feet or 36 inches. Was legally defined to be exactly 0.9144 metres.';
+
+tlen[124].tu:= 'Twip'; tlen[124].tsym:= ''; tlen[124].tcons:= 0.017638878;
+tlen[124].tdef:= 'Wikipedia: A twip (abbreviating "twentieth of a point", "twentieth of an inch point",or "twentieth of an Imperial point") is a typographical measurement, defined as 1/20 of a typographical point. One twip is 1/1440 inch or 17.639 µm when derived from the PostScript point at 72 to the inch, and 1/1445.4 inch or 17.573 µm based on the printer''s point at 72.27 to the inch.';
+
+tlen[125].tu:= 'Vara (Mexican)'; tlen[125].tsym:= ''; tlen[125].tcons:= 837.946;
+tlen[125].tdef:= 'A Mexican measure of length equal to about one yard (32.99 inches).';
+tlen[126].tu:= 'Vara (Spanish)'; tlen[126].tsym:= ''; tlen[126].tcons:= 847.979;
+tlen[126].tdef:= 'It is an old Spanish unit of length. Varas are a surveying unit that appears in many deeds in the southern United States and also used in Latin America. The Spanish unit was set at about 835.905 mm in 1801. In Argentina, the vara measured about 866 mm.';
+tlen[127].tu:= 'Verst/werst'; tlen[127].tsym:= ''; tlen[127].tcons:= 1066800;
+tlen[127].tdef:= 'A Russian measure of length containing 3,500 English feet.';
+tlen[128].tu:= 'Yard'; tlen[128].tsym:= 'yd'; tlen[128].tcons:= 914.4;
+tlen[128].tdef:= 'A yard (abbreviation: yd) is a unit of length in several different systems including United States customary units, Imperial units and the former English units. It is equal to 3 feet or 36 inches. Was legally defined to be exactly 0.9144 metres.';
 
 end.
 

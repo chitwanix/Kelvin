@@ -10,7 +10,7 @@ uses
   accel, angle, angvel, area, aphys, cap, cdata, cdflow, cnum, cloop,
   dens, len, mass, temp, vol, echarge, cur,
   ind, rescon, volt, emr, work, flowld, force, fuelc, lux, magnf, mus, power,
-  prefx, shoe, press, speed, tque, visc, time;
+  prefx, shoe, press, speed, tque, visc, time, fcllaz;
 
 type
 
@@ -327,7 +327,7 @@ begin
   srch[m] := 0;
   m := m + 1;
   // Length
-  for s := 1 to 127 do
+  for s := 1 to 128 do
     if pos(s1, lowercase(tlen[s].tu)) > 0 then
     begin
       srch[m] := s;
@@ -938,8 +938,8 @@ begin
   if listbox1.Selected[23] then
   begin
     memo1.Clear;
-    stringgrid1.RowCount := 128;
-    for gridlin := 1 to 127 do
+    stringgrid1.RowCount := 129;
+    for gridlin := 1 to 128 do
     begin
       stringgrid1.Cells[0, gridlin] := tlen[gridlin].tu;
       stringgrid1.Cells[1, gridlin] := '';
@@ -1549,7 +1549,7 @@ begin
 
   // Length
   if listbox1.ItemIndex = 23 then
-    for gridlin := 1 to 127 do
+    for gridlin := 1 to 128 do
       if stringgrid1.Row = gridlin then
       begin
         memo1.Clear;
@@ -2441,11 +2441,11 @@ end;
       // Length
       23:
       begin
-        for llen := 1 to 127 do
+        for llen := 1 to 128 do
         begin
           if alabel[s].Caption = tlen[llen].tu then
             milm := tlen[llen].tcons * ninput1;
-          for gridlin := 1 to 127 do
+          for gridlin := 1 to 128 do
           begin
             stringgrid1.Cells[1, gridlin] := floattostr(milm / tlen[gridlin].tcons);
             if assigned(alabel[2]) then

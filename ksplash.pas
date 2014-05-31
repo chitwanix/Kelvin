@@ -12,10 +12,13 @@ type
 
   { Tksplash }
 
+  { Tsplash }
+
   Tsplash = class(TForm)
     Image1: TImage;
     Label1: TLabel;
-    Timer1: TTimer;
+    Label2: TLabel;
+    procedure FormActivate(Sender: TObject);
   private
     { private declarations }
   public
@@ -28,6 +31,11 @@ Splash: TSplash;
 implementation
 
 { TSplash }
+
+procedure Tsplash.FormActivate(Sender: TObject);
+begin
+     sleep(1000);
+end;
 
 initialization
   {$I ksplash.lrs}

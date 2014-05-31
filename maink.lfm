@@ -1,7 +1,7 @@
 object kelvinm: Tkelvinm
-  Left = 303
+  Left = 271
   Height = 689
-  Top = 19
+  Top = 24
   Width = 919
   HorzScrollBar.Page = 918
   HorzScrollBar.Visible = False
@@ -10,7 +10,6 @@ object kelvinm: Tkelvinm
   VertScrollBar.Visible = False
   ActiveControl = ListBox1
   Anchors = []
-  BiDiMode = bdRightToLeftReadingOnly
   Caption = 'Kelvin'
   ChildSizing.EnlargeHorizontal = crsScaleChilds
   ChildSizing.EnlargeVertical = crsScaleChilds

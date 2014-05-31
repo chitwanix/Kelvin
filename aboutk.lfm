@@ -1,7 +1,7 @@
 object abk: Tabk
-  Left = 418
+  Left = 417
   Height = 430
-  Top = 172
+  Top = 90
   Width = 500
   BorderIcons = [biSystemMenu, biMinimize]
   BorderStyle = bsDialog
@@ -11,7 +11,7 @@ object abk: Tabk
   OnActivate = FormActivate
   Position = poScreenCenter
   ShowInTaskBar = stNever
-  LCLVersion = '1.0.12.0'
+  LCLVersion = '1.0.14.0'
   object Notebook1: TNotebook
     Left = 22
     Height = 343
@@ -31,8 +31,8 @@ object abk: Tabk
         Width = 460
         BorderSpacing.Top = 20
         Caption = 'Powered by Lazarus'
-        ClientHeight = 315
-        ClientWidth = 458
+        ClientHeight = 314
+        ClientWidth = 456
         Font.Height = -11
         Font.Name = 'Sans'
         ParentFont = False
@@ -46,7 +46,7 @@ object abk: Tabk
           Left = 202
           Height = 20
           Top = 20
-          Width = 55
+          Width = 52
           Anchors = [akLeft, akBottom]
           BorderSpacing.Top = 5
           BorderSpacing.Bottom = 20
@@ -65,10 +65,10 @@ object abk: Tabk
           AnchorSideBottom.Control = GroupBox1
           AnchorSideBottom.Side = asrBottom
           Cursor = crHandPoint
-          Left = 179
+          Left = 177
           Height = 43
-          Top = 267
-          Width = 101
+          Top = 266
+          Width = 103
           Alignment = taCenter
           Anchors = [akLeft, akBottom]
           BorderSpacing.Bottom = 5
@@ -84,7 +84,7 @@ object abk: Tabk
           AnchorSideLeft.Side = asrCenter
           AnchorSideTop.Control = GroupBox1
           AnchorSideTop.Side = asrCenter
-          Left = 178
+          Left = 177
           Height = 98
           Top = 108
           Width = 103
@@ -1704,7 +1704,7 @@ object abk: Tabk
           Left = 179
           Height = 15
           Top = 45
-          Width = 100
+          Width = 99
           Alignment = taCenter
           BorderSpacing.Top = 45
           Caption = 'Conversion utility'
@@ -1715,7 +1715,7 @@ object abk: Tabk
           AnchorSideLeft.Side = asrCenter
           AnchorSideTop.Control = CUtility
           AnchorSideBottom.Side = asrBottom
-          Left = 215
+          Left = 214
           Height = 20
           Top = 70
           Width = 29
@@ -1736,7 +1736,7 @@ object abk: Tabk
           AnchorSideTop.Side = asrBottom
           AnchorSideBottom.Side = asrBottom
           Cursor = crHandPoint
-          Left = 161
+          Left = 160
           Height = 15
           Top = 231
           Width = 136
@@ -1763,6 +1763,8 @@ object abk: Tabk
         Top = 50
         Width = 450
         BorderSpacing.Top = 10
+        BorderStyle = bsNone
+        Color = clMenuBar
         Font.Height = -11
         Font.Name = 'Sans'
         Lines.Strings = (
@@ -1779,10 +1781,10 @@ object abk: Tabk
       object StaticText1: TStaticText
         AnchorSideLeft.Control = licp
         AnchorSideLeft.Side = asrCenter
-        Left = 200
-        Height = 19
+        Left = 199
+        Height = 21
         Top = 18
-        Width = 57
+        Width = 59
         AutoSize = True
         Caption = 'Licence'
         Font.Height = -13
@@ -1794,28 +1796,41 @@ object abk: Tabk
     end
   end
   object lic: TButton
-    Left = 200
+    AnchorSideLeft.Control = Notebook1
+    AnchorSideLeft.Side = asrCenter
+    AnchorSideTop.Control = Notebook1
+    AnchorSideTop.Side = asrBottom
+    Left = 213
     Height = 25
-    Top = 376
+    Top = 366
     Width = 75
+    BorderSpacing.Top = 10
     Caption = 'Licence'
     OnClick = licClick
     TabOrder = 1
   end
   object clse: TButton
-    Left = 296
+    AnchorSideLeft.Control = lic
+    AnchorSideLeft.Side = asrBottom
+    AnchorSideTop.Control = lic
+    Left = 308
     Height = 25
-    Top = 376
+    Top = 366
     Width = 75
+    BorderSpacing.Left = 20
     Caption = 'Close'
     OnClick = clseClick
     TabOrder = 2
   end
   object abbut: TButton
-    Left = 104
+    AnchorSideTop.Control = lic
+    AnchorSideRight.Control = lic
+    Left = 118
     Height = 25
-    Top = 376
+    Top = 366
     Width = 75
+    Anchors = [akTop, akRight]
+    BorderSpacing.Right = 20
     Caption = 'About'
     OnClick = abbutClick
     TabOrder = 3
