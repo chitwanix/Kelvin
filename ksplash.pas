@@ -34,6 +34,7 @@ implementation
 
 procedure Tsplash.FormActivate(Sender: TObject);
 begin
+     Splash.Repaint;
      sleep(1000);
 end;
 

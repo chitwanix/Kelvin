@@ -1,13 +1,13 @@
 object splash: Tsplash
-  Left = 426
-  Height = 403
-  Top = 171
-  Width = 585
+  Left = 476
+  Height = 312
+  Top = 248
+  Width = 436
   BorderIcons = []
   BorderStyle = bsNone
   Caption = 'Kelvin'
-  ClientHeight = 403
-  ClientWidth = 585
+  ClientHeight = 312
+  ClientWidth = 436
   FormStyle = fsSplash
   OnActivate = FormActivate
   LCLVersion = '1.0.14.0'
@@ -16,9 +16,9 @@ object splash: Tsplash
     AnchorSideLeft.Side = asrCenter
     AnchorSideTop.Control = Owner
     AnchorSideTop.Side = asrCenter
-    Left = 226
+    Left = 152
     Height = 128
-    Top = 137
+    Top = 92
     Width = 132
     Center = True
     Picture.Data = {
@@ -567,12 +567,12 @@ object splash: Tsplash
     AnchorSideLeft.Control = Image1
     AnchorSideLeft.Side = asrCenter
     AnchorSideBottom.Control = Image1
-    Left = 255
+    Left = 181
     Height = 26
-    Top = 61
+    Top = 36
     Width = 74
     Anchors = [akLeft, akBottom]
-    BorderSpacing.Bottom = 50
+    BorderSpacing.Bottom = 30
     Caption = 'Kelvin'
     Font.Height = -21
     Font.Name = 'Sans'
@@ -585,12 +585,12 @@ object splash: Tsplash
     AnchorSideLeft.Side = asrCenter
     AnchorSideTop.Control = Image1
     AnchorSideTop.Side = asrBottom
-    Left = 245
+    Left = 168
     Height = 18
-    Top = 315
-    Width = 94
-    BorderSpacing.Top = 50
-    Caption = 'Unit Converter'
+    Top = 250
+    Width = 101
+    BorderSpacing.Top = 30
+    Caption = 'Units Converter'
     ParentColor = False
   end
 end
