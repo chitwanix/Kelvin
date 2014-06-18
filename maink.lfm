@@ -2230,50 +2230,65 @@ object kelvinm: Tkelvinm
     AnchorSideRight.Side = asrBottom
     AnchorSideBottom.Control = Owner
     AnchorSideBottom.Side = asrBottom
-    Left = 209
+    Left = 231
     Height = 30
     Top = 618
-    Width = 500
+    Width = 457
     Anchors = [akLeft, akBottom]
     BorderSpacing.Bottom = 20
     ClientHeight = 30
-    ClientWidth = 500
+    ClientWidth = 457
     TabOrder = 1
     object LSearch: TLabel
-      Left = 7
+      AnchorSideLeft.Control = srchPanel
+      Left = 11
       Height = 18
       Top = 8
       Width = 127
-      Anchors = []
+      Anchors = [akLeft]
+      BorderSpacing.Left = 10
       Caption = 'Enter unit to search'
       ParentColor = False
     end
     object resultsl: TLabel
-      Left = 377
-      Height = 23
-      Top = 2
-      Width = 104
-      Anchors = []
+      AnchorSideLeft.Control = Search
+      AnchorSideLeft.Side = asrBottom
+      AnchorSideTop.Control = srchPanel
+      AnchorSideTop.Side = asrCenter
+      Left = 357
+      Height = 18
+      Top = 6
+      Width = 90
       AutoSize = False
+      BorderSpacing.Left = 20
       ParentColor = False
     end
     object Search: TButton
-      Left = 277
+      AnchorSideLeft.Control = esrch
+      AnchorSideLeft.Side = asrBottom
+      AnchorSideTop.Control = srchPanel
+      AnchorSideTop.Side = asrCenter
+      Left = 262
       Height = 23
-      Top = 2
+      Top = 4
       Width = 75
-      Anchors = []
+      BorderSpacing.Left = 10
       Caption = 'Search'
       Default = True
       OnClick = SearchClick
       TabOrder = 0
     end
     object esrch: TEdit
-      Left = 146
-      Height = 27
-      Top = 1
+      AnchorSideLeft.Control = LSearch
+      AnchorSideLeft.Side = asrBottom
+      AnchorSideTop.Control = srchPanel
+      AnchorSideTop.Side = asrCenter
+      Left = 148
+      Height = 22
+      Top = 4
       Width = 104
-      Anchors = []
+      AutoSize = False
+      BorderSpacing.Left = 10
       OnChange = esrchChange
       TabOrder = 1
     end
