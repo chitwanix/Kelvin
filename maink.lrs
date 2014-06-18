@@ -1,7 +1,7 @@
 { This is an automatically generated lazarus resource file }
 
 LazarusResources.Add('Tkelvinm','FORMDATA',[
-  'TPF0'#8'Tkelvinm'#7'kelvinm'#4'Left'#3#15#1#6'Height'#3#177#2#3'Top'#2#24#5
+  'TPF0'#8'Tkelvinm'#7'kelvinm'#4'Left'#3'W'#1#6'Height'#3#177#2#3'Top'#2#22#5
   +'Width'#3#151#3#18'HorzScrollBar.Page'#3#150#3#21'HorzScrollBar.Visible'#8#18
   +'VertScrollBar.Page'#3#147#2#19'VertScrollBar.Range'#2'a'#21'VertScrollBar.V'
   +'isible'#8#13'ActiveControl'#7#5'esrch'#7'Anchors'#11#0#7'Caption'#6#6'Kelvi'
@@ -22241,7 +22241,8 @@ LazarusResources.Add('Tkelvinm','FORMDATA',[
   +'p'#4#224#255#0#0#0#9'TMenuItem'#5'mfile'#7'Caption'#6#5'&File'#4'left'#2''''
   +#3'top'#2#8#0#9'TMenuItem'#5'mquit'#7'Caption'#6#5'&Quit'#8'ShortCut'#2#27#7
   +'OnClick'#7#10'mquitClick'#4'left'#2''''#3'top'#2#8#0#0#0#9'TMenuItem'#5'mhe'
-  +'lp'#7'Caption'#6#5'&Help'#4'left'#2''''#3'top'#2#8#0#9'TMenuItem'#5'menab'#7
-  +'Caption'#6#6'&About'#8'ShortCut'#2'p'#7'OnClick'#7#10'menabClick'#4'left'#2
-  +''''#3'top'#2#8#0#0#0#0#0
+  +'lp'#7'Caption'#6#5'&Help'#4'left'#2''''#3'top'#2#8#0#9'TMenuItem'#6'unitsm'
+  +#7'Caption'#6#6'&Units'#7'OnClick'#7#11'unitsmClick'#0#0#9'TMenuItem'#5'mena'
+  +'b'#7'Caption'#6#6'&About'#8'ShortCut'#2'p'#7'OnClick'#7#10'menabClick'#4'le'
+  +'ft'#2''''#3'top'#2#8#0#0#0#0#0
 ]);

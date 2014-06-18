@@ -5,7 +5,7 @@ unit maink;
 interface
 
 uses
-  Classes, SysUtils, FileUtil, LResources, Forms, Controls, Graphics, Dialogs,
+  Classes, SysUtils, FileUtil, LCLIntf, LResources, Forms, Controls, Graphics, Dialogs,
   StdCtrls, ExtCtrls, PairSplitter, Grids, DBGrids, Menus, aboutk, ksplash,
   accel, angle, angvel, area, aphys, cap, cdata, cdflow, cnum, cloop,
   dens, len, mass, temp, vol, echarge, cur,
@@ -25,12 +25,15 @@ type
 
   Tkelvinm = class(TForm)
     ACaption: TLabel;
+    chlogo: TImage;
     esrch: TEdit;
+    Label1: TLabel;
     ListBox1: TListBox;
     Logo: TImage;
     LSearch: TLabel;
     memo1: TMemo;
     MainMenu1: TMainMenu;
+    unitsm: TMenuItem;
         mfile: TMenuItem;
             mquit: TMenuItem;
         mhelp: TMenuItem;
@@ -53,6 +56,7 @@ type
     procedure menabClick(Sender: TObject);
     procedure mquitClick(Sender: TObject);
     procedure StringGrid1Click(Sender: TObject);
+    procedure unitsmClick(Sender: TObject);
   private
     { private declarations }
   public
@@ -119,7 +123,17 @@ end;
 
 procedure Tkelvinm.mquitClick(Sender: TObject);
 begin
-  Close;
+     Close;
+end;
+
+procedure Tkelvinm.unitsmClick(Sender: TObject);
+begin
+     OpenDocument('/usr/share/doc/Kelvin/Kelvin units.pdf');
+end;
+
+procedure Tkelvinm.menabClick(Sender: TObject);
+begin
+  abk.Show;
 end;
 
 procedure Tkelvinm.EsrchChange(Sender: TObject);
@@ -613,13 +627,6 @@ procedure Tkelvinm.FormCreate(Sender: TObject);
 begin
   memo1.Caption := '';
 end;
-
-
-procedure Tkelvinm.menabClick(Sender: TObject);
-begin
-  abk.Show;
-end;
-
 
 procedure Tkelvinm.ListBox1Click(Sender: TObject);
 begin
@@ -1781,6 +1788,7 @@ begin
       if stringgrid1.Row = gridlin then
         memo1.Text := tvoliq[gridlin].tdef;
 end;
+
 
 procedure Tkelvinm.edi1KeyPress(Sender: TObject; var Key: char);
 begin
