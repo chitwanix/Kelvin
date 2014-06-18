@@ -8,7 +8,7 @@ object kelvinm: Tkelvinm
   VertScrollBar.Page = 659
   VertScrollBar.Range = 97
   VertScrollBar.Visible = False
-  ActiveControl = ListBox1
+  ActiveControl = esrch
   Anchors = []
   Caption = 'Kelvin'
   ChildSizing.EnlargeHorizontal = crsScaleChilds
