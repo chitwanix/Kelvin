@@ -128,7 +128,7 @@ end;
 
 procedure Tkelvinm.unitsmClick(Sender: TObject);
 begin
-     OpenDocument('/usr/share/doc/Kelvin/Kelvin units.pdf');
+     OpenDocument('/usr/share/doc/Kelvin/Kelvin Documentation.pdf');
 end;
 
 procedure Tkelvinm.menabClick(Sender: TObject);
