@@ -1,7 +1,7 @@
 object abk: Tabk
   Left = 417
   Height = 430
-  Top = 90
+  Top = 65
   Width = 500
   BorderIcons = [biSystemMenu, biMinimize]
   BorderStyle = bsDialog
@@ -1743,7 +1743,7 @@ object abk: Tabk
           AutoSize = False
           BorderSpacing.Top = 25
           Caption = 'http://kelvin.freetzi.com'
-          Font.Color = clSkyBlue
+          Font.Color = clActiveCaption
           Font.Height = -11
           Font.Name = 'Sans'
           ParentColor = False
