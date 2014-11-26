@@ -27,6 +27,7 @@ type
     ACaption: TLabel;
     chlogo: TImage;
     esrch: TEdit;
+    ImageList1: TImageList;
     Label1: TLabel;
     ListBox1: TListBox;
     Logo: TImage;

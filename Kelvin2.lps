@@ -102,8 +102,8 @@
         <IsVisibleTab Value="True"/>
         <EditorIndex Value="0"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="117"/>
-        <CursorPos X="58" Y="131"/>
+        <TopLine Value="118"/>
+        <CursorPos X="58" Y="132"/>
         <UsageCount Value="27"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -144,7 +144,7 @@
     <General>
       <ActiveWindowIndexAtStart Value="0"/>
     </General>
-    <JumpHistory Count="5" HistoryIndex="4">
+    <JumpHistory Count="6" HistoryIndex="5">
       <Position1>
         <Filename Value="maink.pas"/>
         <Caret Line="21" Column="1" TopLine="21"/>
@@ -165,6 +165,10 @@
         <Filename Value="maink.pas"/>
         <Caret Line="619" Column="5" TopLine="610"/>
       </Position5>
+      <Position6>
+        <Filename Value="maink.pas"/>
+        <Caret Line="131" Column="58" TopLine="117"/>
+      </Position6>
     </JumpHistory>
   </ProjectSession>
 </CONFIG>
