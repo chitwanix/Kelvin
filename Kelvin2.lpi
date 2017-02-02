@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <CONFIG>
   <ProjectOptions>
     <Version Value="9"/>
@@ -31,7 +31,6 @@
     <RunParams>
       <local>
         <FormatVersion Value="1"/>
-        <LaunchingApplication PathPlusParams="/usr/bin/xterm -T 'Lazarus Run Output' -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
       </local>
     </RunParams>
     <RequiredPackages Count="2">
@@ -42,36 +41,30 @@
         <PackageName Value="LCL"/>
       </Item2>
     </RequiredPackages>
-    <Units Count="18">
+    <Units Count="20">
       <Unit0>
         <Filename Value="Kelvin2.pas"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="Kelvin2"/>
       </Unit0>
       <Unit1>
         <Filename Value="cur.pas"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="cur"/>
       </Unit1>
       <Unit2>
         <Filename Value="press.pas"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="press"/>
       </Unit2>
       <Unit3>
         <Filename Value="cdata.pas"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="cdata"/>
       </Unit3>
       <Unit4>
         <Filename Value="visc.pas"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="visc"/>
       </Unit4>
       <Unit5>
         <Filename Value="prefx.pas"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="prefx"/>
       </Unit5>
       <Unit6>
         <Filename Value="angvel.pas"/>
@@ -81,17 +74,14 @@
       <Unit7>
         <Filename Value="force.pas"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="force"/>
       </Unit7>
       <Unit8>
         <Filename Value="volliq.pas"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="volliq"/>
       </Unit8>
       <Unit9>
         <Filename Value="echarge.pas"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="echarge"/>
       </Unit9>
       <Unit10>
         <Filename Value="aboutk.lfm"/>
@@ -107,7 +97,6 @@
         <ComponentName Value="abk"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <UnitName Value="aboutk"/>
       </Unit12>
       <Unit13>
         <Filename Value="maink.pas"/>
@@ -115,12 +104,10 @@
         <ComponentName Value="kelvinm"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <UnitName Value="maink"/>
       </Unit13>
       <Unit14>
         <Filename Value="mass.pas"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="mass"/>
       </Unit14>
       <Unit15>
         <Filename Value="ksplash.pas"/>
@@ -128,24 +115,32 @@
         <ComponentName Value="splash"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <UnitName Value="ksplash"/>
       </Unit15>
       <Unit16>
         <Filename Value="angle.pas"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="angle"/>
       </Unit16>
       <Unit17>
         <Filename Value="cnum.pas"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="cnum"/>
       </Unit17>
+      <Unit18>
+        <Filename Value="maink.lfm"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="kelvinm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="ksplash.lfm"/>
+        <IsPartOfProject Value="True"/>
+      </Unit19>
     </Units>
   </ProjectOptions>
   <CompilerOptions>
     <Version Value="11"/>
     <Target>
-      <Filename Value="kelvinf"/>
+      <Filename Value="kelvinc"/>
     </Target>
     <SearchPaths>
       <IncludeFiles Value="$(ProjOutDir)"/>
@@ -161,11 +156,5 @@
         </Win32>
       </Options>
     </Linking>
-    <Other>
-      <CompilerMessages>
-        <MsgFileName Value=""/>
-      </CompilerMessages>
-      <CompilerPath Value="$(CompPath)"/>
-    </Other>
   </CompilerOptions>
 </CONFIG>

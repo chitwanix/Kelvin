@@ -21,7 +21,6 @@ type
       GroupBox1: TGroupBox;
       http: TLabel;
       Image1: TImage;
-      chlogo: TImage;
       lic: TButton;
       maint: TLabel;
       Memo1: TMemo;
@@ -67,7 +66,7 @@ end;
 
 procedure Tabk.httpClick(Sender: TObject);
 begin
-     OpenURL('http://kelvin.freetzi.com');
+     OpenURL('http://www.ncvsoft.epizy.com');
 end;
 
 
