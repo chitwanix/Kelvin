@@ -75,7 +75,7 @@
         <ComponentName Value="abk"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <EditorIndex Value="3"/>
+        <EditorIndex Value="4"/>
         <UsageCount Value="27"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -86,10 +86,13 @@
         <ComponentName Value="kelvinm"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="118"/>
-        <CursorPos X="58" Y="132"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="130"/>
+        <CursorPos X="51" Y="132"/>
         <UsageCount Value="27"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
       </Unit13>
       <Unit14>
         <Filename Value="mass.pas"/>
@@ -102,10 +105,9 @@
         <ComponentName Value="splash"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="2"/>
         <TopLine Value="23"/>
-        <CursorPos X="20" Y="37"/>
+        <CursorPos X="13" Y="27"/>
         <UsageCount Value="27"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -140,6 +142,11 @@
         <DefaultSyntaxHighlighter Value="LFM"/>
       </Unit19>
     </Units>
-    <JumpHistory HistoryIndex="-1"/>
+    <JumpHistory Count="1">
+      <Position1>
+        <Filename Value="maink.pas"/>
+        <Caret Line="132" Column="58" TopLine="118"/>
+      </Position1>
+    </JumpHistory>
   </ProjectSession>
 </CONFIG>
