@@ -24,7 +24,7 @@ function dto40(dtv: double; bv: integer) :string;
 function dto50(v50: double; bv: integer) :string;
 function dto60(v60: double; bv: integer) :string;
 function dto62(v62: double; bv: integer) :string;
-function IntToHex (Value: Integer): string;
+function IntToHex (Value: Integer; Digits: Integer): string;
 
 type
 TMag = record
@@ -400,9 +400,9 @@ begin
      result:= ds;
 end;
 
-function IntToHex (Value: Integer): string;
+function IntToHex (Value: Integer; Digits: Integer): string;
 begin
-     result:= inttohex(value);
+     result:= inttohex(value, 10);
 end;
 
 begin
