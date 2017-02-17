@@ -24,7 +24,7 @@ function dto40(dtv: double; bv: integer) :string;
 function dto50(v50: double; bv: integer) :string;
 function dto60(v60: double; bv: integer) :string;
 function dto62(v62: double; bv: integer) :string;
-function IntToHex (Value: Integer; Digits: Integer): string;
+function IntToHex (Value: Integer): string;
 
 type
 TMag = record
@@ -86,8 +86,8 @@ function dbi(bdv: double; dv: smallint) :string;
 var
 bids: string;
 bidt: integer;
-bia:   array[1..20] of integer;
-l: smallint = 0;
+//bia:   array[1..20] of integer;
+//l: smallint = 0;
 begin
      if bdv < dv then dbi:= floattostr(bdv) else
      while bdv >=2 do begin
@@ -123,7 +123,7 @@ end;
 // Decimal to 20
 function dtoa(dtv: double; bv: integer) :string;
 var
-ds,ts:      string;
+ds:      string;
 dtemp: integer;
 zl,al: smallint;
 l:     smallint= 1;
@@ -146,7 +146,7 @@ function duod(duodvar: string; le: smallint) :string;
 var
 dlen:   smallint;
 dt:     double;
-dtt:    double;
+//dtt:    double;
 l:      smallint=1;
 zl:     smallint;
 begin
@@ -277,7 +277,7 @@ end;
 // Decimal to 30    0-9 A-T
 function dto30(v30: double; b30: integer) :string;
 var
-ds,ts:      string;
+ds:      string;
 dtemp: double;
 zl,al: smallint;
 l:     smallint=1;
@@ -298,7 +298,7 @@ end;
 // Decimal to 36
 function dto36(v36: double; b36: integer) :string;
 var
-ds,ts:      string;
+ds:      string;
 dtemp: double;
 zl,al: smallint;
 l:     smallint=1;
@@ -319,7 +319,7 @@ end;
 // Decimal to 40
 function dto40(dtv: double; bv: integer) :string;
 var
-ds,ts:      string;
+ds:      string;
 dtemp: double;
 zl,al: smallint;
 l:     smallint=1;
@@ -340,7 +340,7 @@ end;
 // Decimal to 50 A-M
 function dto50(v50: double; bv: integer) :string;
 var
-ds,ts:      string;
+ds:      string;
 dtemp: double;
 zl,al: smallint;
 l:     smallint=1;
@@ -361,7 +361,7 @@ end;
 // Decimal to 60 A-Z a-x
 function dto60(v60: double; bv: integer) :string;
 var
-ds,ts:      string;
+ds:      string;
 dtemp: double;
 zl,al: smallint;
 l:     smallint=1;
@@ -382,7 +382,7 @@ end;
 // Decimal to 62 A-Z a-z
 function dto62(v62: double; bv: integer) :string;
 var
-ds,ts:      string;
+ds:      string;
 dtemp: double;
 zl,al: smallint;
 l:     smallint=1;
@@ -400,9 +400,9 @@ begin
      result:= ds;
 end;
 
-function IntToHex (Value: Integer; Digits: Integer): string;
+function IntToHex (Value: Integer): string;
 begin
-     result:= inttohex(value, 10);
+     result:= inttohex(value);
 end;
 
 begin

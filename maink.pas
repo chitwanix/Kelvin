@@ -6,7 +6,7 @@ interface
 
 uses
   Classes, SysUtils, FileUtil, LCLIntf, LResources, Forms, Controls, Graphics, Dialogs,
-  StdCtrls, ExtCtrls, PairSplitter, Grids, DBGrids, Menus, aboutk, ksplash,
+  StdCtrls, ExtCtrls, Grids, DBGrids, Menus, aboutk, ksplash,
   accel, angle, angvel, area, aphys, cap, cdata, cdflow, cnum, cloop,
   dens, len, mass, temp, vol, echarge, cur,
   ind, rescon, volt, emr, work, flowld, force, fuelc, lux, magnf, mus, power,

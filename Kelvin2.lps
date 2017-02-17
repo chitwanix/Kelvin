@@ -60,8 +60,8 @@
       <Unit10>
         <Filename Value="aboutk.lfm"/>
         <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
         <UsageCount Value="27"/>
-        <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="LFM"/>
       </Unit10>
       <Unit11>
@@ -75,10 +75,8 @@
         <ComponentName Value="abk"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <EditorIndex Value="4"/>
+        <EditorIndex Value="-1"/>
         <UsageCount Value="27"/>
-        <Loaded Value="True"/>
-        <LoadedDesigner Value="True"/>
       </Unit12>
       <Unit13>
         <Filename Value="maink.pas"/>
@@ -86,13 +84,10 @@
         <ComponentName Value="kelvinm"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <IsVisibleTab Value="True"/>
-        <EditorIndex Value="3"/>
-        <TopLine Value="130"/>
-        <CursorPos X="51" Y="132"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="23" Y="9"/>
         <UsageCount Value="27"/>
         <Loaded Value="True"/>
-        <LoadedDesigner Value="True"/>
       </Unit13>
       <Unit14>
         <Filename Value="mass.pas"/>
@@ -105,12 +100,10 @@
         <ComponentName Value="splash"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <EditorIndex Value="2"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="23"/>
         <CursorPos X="13" Y="27"/>
         <UsageCount Value="27"/>
-        <Loaded Value="True"/>
-        <LoadedDesigner Value="True"/>
       </Unit15>
       <Unit16>
         <Filename Value="angle.pas"/>
@@ -120,8 +113,11 @@
       <Unit17>
         <Filename Value="cnum.pas"/>
         <IsPartOfProject Value="True"/>
-        <TopLine Value="6"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="396"/>
+        <CursorPos X="29" Y="405"/>
         <UsageCount Value="26"/>
+        <Loaded Value="True"/>
       </Unit17>
       <Unit18>
         <Filename Value="maink.lfm"/>
@@ -136,17 +132,76 @@
       <Unit19>
         <Filename Value="ksplash.lfm"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="1"/>
+        <EditorIndex Value="-1"/>
         <UsageCount Value="20"/>
-        <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="LFM"/>
       </Unit19>
     </Units>
-    <JumpHistory Count="1">
+    <JumpHistory Count="16" HistoryIndex="15">
       <Position1>
-        <Filename Value="maink.pas"/>
-        <Caret Line="132" Column="58" TopLine="118"/>
+        <Filename Value="cnum.pas"/>
+        <Caret TopLine="6"/>
       </Position1>
+      <Position2>
+        <Filename Value="cnum.pas"/>
+        <Caret Line="89" Column="3" TopLine="79"/>
+      </Position2>
+      <Position3>
+        <Filename Value="cnum.pas"/>
+        <Caret Line="90" Column="3" TopLine="81"/>
+      </Position3>
+      <Position4>
+        <Filename Value="cnum.pas"/>
+        <Caret Line="126" Column="3" TopLine="117"/>
+      </Position4>
+      <Position5>
+        <Filename Value="cnum.pas"/>
+        <Caret Line="149" Column="3" TopLine="140"/>
+      </Position5>
+      <Position6>
+        <Filename Value="cnum.pas"/>
+        <Caret Line="280" Column="3" TopLine="271"/>
+      </Position6>
+      <Position7>
+        <Filename Value="cnum.pas"/>
+        <Caret Line="301" Column="3" TopLine="292"/>
+      </Position7>
+      <Position8>
+        <Filename Value="cnum.pas"/>
+        <Caret Line="322" Column="3" TopLine="313"/>
+      </Position8>
+      <Position9>
+        <Filename Value="cnum.pas"/>
+        <Caret Line="343" Column="3" TopLine="334"/>
+      </Position9>
+      <Position10>
+        <Filename Value="cnum.pas"/>
+        <Caret Line="364" Column="3" TopLine="355"/>
+      </Position10>
+      <Position11>
+        <Filename Value="cnum.pas"/>
+        <Caret Line="385" Column="3" TopLine="376"/>
+      </Position11>
+      <Position12>
+        <Filename Value="maink.pas"/>
+        <Caret Line="132" Column="51" TopLine="130"/>
+      </Position12>
+      <Position13>
+        <Filename Value="cnum.pas"/>
+        <Caret Line="27" Column="18" TopLine="18"/>
+      </Position13>
+      <Position14>
+        <Filename Value="cnum.pas"/>
+        <Caret Line="403" Column="34" TopLine="403"/>
+      </Position14>
+      <Position15>
+        <Filename Value="cnum.pas"/>
+        <Caret Line="27" Column="18" TopLine="18"/>
+      </Position15>
+      <Position16>
+        <Filename Value="cnum.pas"/>
+        <Caret Line="403" Column="34" TopLine="403"/>
+      </Position16>
     </JumpHistory>
   </ProjectSession>
 </CONFIG>
