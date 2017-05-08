@@ -1745,13 +1745,12 @@ object abk: Tabk
           AnchorSideTop.Side = asrBottom
           AnchorSideBottom.Side = asrBottom
           Cursor = crHandPoint
-          Left = 134
-          Height = 15
+          Left = 126
+          Height = 14
           Top = 214
-          Width = 136
-          AutoSize = False
+          Width = 153
           BorderSpacing.Top = 25
-          Caption = 'http://ncvsoft.epizy.com'
+          Caption = 'http://ncvsoft.heliohost.org'
           Font.Color = clActiveCaption
           Font.Height = -11
           Font.Name = 'Sans'

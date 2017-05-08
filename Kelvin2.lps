@@ -75,7 +75,10 @@
         <ComponentName Value="abk"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="-1"/>
+        <TopLine Value="53"/>
+        <CursorPos X="43" Y="69"/>
         <UsageCount Value="27"/>
       </Unit12>
       <Unit13>
@@ -112,11 +115,10 @@
       <Unit17>
         <Filename Value="cnum.pas"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="19"/>
         <CursorPos X="35" Y="27"/>
         <UsageCount Value="26"/>
-        <Loaded Value="True"/>
       </Unit17>
       <Unit18>
         <Filename Value="maink.lfm"/>
@@ -153,22 +155,15 @@
       </Unit21>
       <Unit22>
         <Filename Value="../../gitm/Kelvin/cnum.pas"/>
-        <EditorIndex Value="1"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="11"/>
         <CursorPos X="51" Y="27"/>
         <UsageCount Value="10"/>
-        <Loaded Value="True"/>
       </Unit22>
     </Units>
-    <JumpHistory Count="2" HistoryIndex="1">
-      <Position1>
-        <Filename Value="../../gitm/Kelvin/cnum.pas"/>
-        <Caret Line="11" Column="54"/>
-      </Position1>
-      <Position2>
-        <Filename Value="cnum.pas"/>
-        <Caret Line="403" Column="51" TopLine="396"/>
-      </Position2>
-    </JumpHistory>
+    <General>
+      <ActiveWindowIndexAtStart Value="-1"/>
+    </General>
+    <JumpHistory HistoryIndex="-1"/>
   </ProjectSession>
 </CONFIG>
